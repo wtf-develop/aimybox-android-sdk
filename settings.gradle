@@ -1,15 +1,5 @@
 rootProject.buildFileName = "build.gradle.kts"
 
 include(":core")
-include(":houndify-speechkit")
 include(":yandex-speechkit")
-include(":google-cloud-speechkit")
-include(":google-platform-speechkit")
-include(":snowboy-speechkit")
-include(":pocketsphinx-speechkit")
 include(':kaldi-speechkit')
-include(':dialogflow-api')
-include(':rasa-api')
-include(':dummy-api')
-include(':jaicf-api')
-include(':components')

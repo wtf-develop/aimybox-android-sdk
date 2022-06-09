@@ -34,8 +34,8 @@ abstract class SpeechToText(
             maxAudioChunks != null && audioChunksBetweenResults >= maxAudioChunks
 
 
-    internal lateinit var eventChannel: SendChannel<Event>
-    internal lateinit var exceptionChannel: SendChannel<AimyboxException>
+    open lateinit var eventChannel: SendChannel<Event>
+    open lateinit var exceptionChannel: SendChannel<AimyboxException>
 
     /**
      * Stop audio recording, but await for final result.
